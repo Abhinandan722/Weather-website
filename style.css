@@ -1,0 +1,165 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contener{
+    height: min-content;
+    width: 20rem;
+    background-color: white;
+    border-radius: 10px;
+     padding: 1rem; 
+}
+
+/* .navbar{
+    width: 20rem;
+    height: 2rem;
+} */
+
+
+#input_box{
+    width: 85%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: #e6f5fb;
+    color: black;
+    border-radius: 6px;
+    padding: 8px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    
+
+}
+::placeholder{
+    color: brown;
+}
+
+.navbar{
+    display: flex;
+    gap: 5px;
+    /* margin-top: 10rem; */
+
+}
+#search_btn{
+    background-color: #e6f5fb;
+     color: black;
+     font-weight: 1000;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    cursor: pointer;
+
+    
+}
+#search_btn:hover{
+    background-color: black;
+
+
+    color: white;
+     transition: 1s; 
+    
+}
+.weather_body{
+    margin-top: 1rem;
+}
+#image{
+    position: relative;
+    width: 80%;
+    height: 40%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2rem;
+    margin-bottom: 1.7rem;
+    /* background-color: aqua;   */
+}
+.location_not_found{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    position: relative;
+    width: 80%;
+    height: 40%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2rem;
+    margin-bottom: 1.7rem;
+
+}
+.image_not{
+    position: relative;
+    width: 80%;
+    height: 40%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2rem;
+    margin-bottom: 1.7rem;
+
+}
+.weather_detial{
+    display: flex;
+    flex-direction: column;
+}
+
+.dis_temp{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.temprature{
+    display: flex;
+}
+#c{
+    font-size: 1.7rem;
+    
+}
+.last_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.humidity_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.winfspeed_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+#humidity_img ,#wind{
+ font-size: 1.5rem;   
+}
+.wind_speed,.percent{
+    font-weight: 700;
+}
+
+

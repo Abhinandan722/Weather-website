@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+</head>
+<body>
+    <div class="contener">
+        <div class="navbar">
+            <input type="text" placeholder="inter your location" id="input_box" >
+            <i class='bx bx-search' id="search_btn"></i>
+
+
+        </div>
+
+        <!-- weather body              -->
+
+        
+        <div class="weather_body">
+            <div class="image_all">
+                   <div class="location_not_found"> 
+                     <h2> please inter right location</h2> 
+                      <img src="image/404.png" alt="image is here" class="image_not"> 
+                    </div>
+                <img src=" " alt="image is here" class="image">
+            </div>
+            <div class="weather_detial">
+            <div class="dis_temp">
+                <div class="temprature">
+                    <p class="temp">36</p> <sup id="c">°C </sup>
+
+                </div>
+                <div class="discription">
+                    dust
+
+                </div>
+            </div>
+            <!-- last start -->
+            <div class="last_section">
+            <div class="humidity_all">
+                <i class='bx bxs-balloon' id="humidity_img"></i>
+                <div class="humidity">
+                    <p class="percent">49%</p>
+                    <span class="percent_humidity">humidity</span>
+                </div>
+            </div>
+            <div class="winfspeed_all">
+                <i class='bx bx-wind' id="wind" ></i>
+                  <div class="last">
+                <p class="wind_speed">5.14 <span>Km/H</span> </p>
+                <p class="wind_text"> Wind speed</p>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+
+        </div>
+
+
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
